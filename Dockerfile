@@ -1,4 +1,4 @@
-FROM node:10.12.0
+FROM node:8.12.0
 RUN apt-get update
 WORKDIR /app
 COPY . /app/
